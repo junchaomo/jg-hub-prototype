@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>九规智能中枢 · 企业级 AI 中枢</title>
+<link rel="stylesheet" href="./styles.css?v=332" />
+<link rel="stylesheet" href="./search-fixes.css?v=97" />
+<script>window.addEventListener("error",function(e){try{localStorage.setItem("jg.lastErr",(e.message||"")+" @ "+(e.filename||"")+":"+e.lineno)}catch(_){}});</script>
+</head>
+<body>
+  <div class="menubar" id="menubar"></div>
+  <div class="app" id="app">
+    <aside class="railbar" id="railbar"></aside>
+    <aside class="sidebar" id="sidebar"></aside>
+    <main class="main">
+      <header class="topbar" id="topbar"></header>
+      <div class="main-body">
+        <section class="view" id="view"></section>
+      </div>
+    </main>
+  </div>
+  <div class="toast" id="toast" aria-live="polite"></div>
+  <script>window.addEventListener("error", function(e){ window.__e=(e.error&&e.error.stack)||e.message; }); window.addEventListener("unhandledrejection", function(e){ window.__e="REJ "+(e.reason&&e.reason.stack||e.reason); });</script>
+  <script type="module" src="./app.js?v=421"></script>
+</body>
+</html>

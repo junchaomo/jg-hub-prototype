@@ -1,0 +1,14 @@
+# 示例数据 / 演示素材（不入库）
+data.mjs
+public/ig/
+
+# 过程数据 / 备份
+*.bak
+*.log
+.build/
+node_modules/
+dist/
+
+# 系统文件
+.DS_Store
+Thumbs.db
